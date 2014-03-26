@@ -6,23 +6,26 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player_breathing</sprite>
-    <sprite>sprites\spr_player_jumping</sprite>
-    <sprite>sprites\spr_player_walking</sprite>
-    <sprite>sprites\spr_ground_grass_1</sprite>
-    <sprite>sprites\spr_block_b</sprite>
+    <sprite>sprites\spr_boxguy_breathing</sprite>
+    <sprite>sprites\spr_bblock</sprite>
+    <sprite>sprites\spr_ground_grass</sprite>
+    <sprite>sprites\psr_ground_deepgrass</sprite>
+    <sprite>sprites\spr_boxguy_jumping</sprite>
+    <sprite>sprites\spr_boxguy_falling</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_ground_grass_1</background>
+    <background>background\bkg_ground_deepgrass</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_block_b</object>
     <object>objects\obj_ground_grass</object>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_ground_deepgrss</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_1</room>
+    <room>rooms\rm_level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
