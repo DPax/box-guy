@@ -8,10 +8,12 @@
   <sprites name="sprites">
     <sprite>sprites\spr_boxguy_breathing</sprite>
     <sprite>sprites\spr_bblock</sprite>
+    <sprite>sprites\spr_bblock_blue</sprite>
     <sprite>sprites\spr_ground_grass</sprite>
     <sprite>sprites\psr_ground_deepgrass</sprite>
     <sprite>sprites\spr_boxguy_jumping</sprite>
     <sprite>sprites\spr_boxguy_falling</sprite>
+    <sprite>sprites\spr_boxguy_jumping2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bkg_ground_deepgrass</background>
@@ -23,6 +25,7 @@
     <object>objects\obj_ground_grass</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_ground_deepgrss</object>
+    <object>objects\obj_block_ice</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level1</room>
